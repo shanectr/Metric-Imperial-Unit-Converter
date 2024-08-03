@@ -3,22 +3,20 @@
 }
 
 body {
-    display: block;
+    display: flex;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
-    margin: 0;
+    align-items: center;
     background-image: linear-gradient(#D1FAE5, darkgreen);
-}
-
-.top-container, .bottom-container {
-    margin: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .top-container {
     background-color: #059669;
     width: 550px;
     height: 285px;
-    transform: translateY(40%);
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -64,7 +62,6 @@ button {
     color: white;
     width: 550px;
     height: 444px;
-    transform: translateY(22%);
     display: flex;
     flex-direction: column;
 }
